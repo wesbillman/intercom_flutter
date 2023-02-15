@@ -17,10 +17,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   intercom_flutter_platform_interface:
-    git:
-      url: https://github.com/wesbillman/intercom_flutter.git
-      ref: intercom-until-it-merges
-      path: intercom_flutter_platform_interface
+    path: ../intercom_flutter_platform_interface
   uuid: ^3.0.7 # to get the random uuid for registerUnidentifiedUser in web
 
 dev_dependencies:
